@@ -1,4 +1,4 @@
-# 🐦 Chirp - A Premium Twitter Clone
+# 🐦 Chirp - A Social Media App Inspired by Twitter
 
 Chirp is a modern, high-fidelity social media platform inspired by Twitter. It features a stunning **dark-mode glassmorphic aesthetic**, robust **JWT user authentication**, text and image post creation, interactive like and comment systems, and a fully customisable content management workflow powered by **Sanity.io**.
 
