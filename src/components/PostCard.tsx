@@ -118,7 +118,7 @@ export default function PostCard({ post, currentUserId }: PostCardProps) {
       <div className="flex-1 min-w-0">
         
         {/* Header Row */}
-        <div className="flex items-center gap-1.5 text-sm">
+        <div className="flex items-center flex-wrap gap-x-1.5 gap-y-0.5 text-sm">
           <span className="font-bold text-white truncate hover:underline cursor-pointer">
             {authorName}
           </span>
@@ -186,7 +186,7 @@ export default function PostCard({ post, currentUserId }: PostCardProps) {
                 placeholder="Post your reply..."
                 value={commentText}
                 onChange={(e) => setCommentText(e.target.value)}
-                className="flex-1 px-3 py-1.5 text-xs bg-gray-900 border border-gray-800 focus:border-blue-500 rounded-xl text-white placeholder-gray-500 focus:outline-none transition-all"
+                className="flex-1 min-w-0 px-3 py-1.5 text-xs bg-gray-900 border border-gray-800 focus:border-blue-500 rounded-xl text-white placeholder-gray-500 focus:outline-none transition-all"
               />
               <button
                 type="submit"
@@ -214,7 +214,7 @@ export default function PostCard({ post, currentUserId }: PostCardProps) {
                         {commentAuthorName.charAt(0).toUpperCase()}
                       </div>
                       <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-1">
+                        <div className="flex items-center flex-wrap gap-x-1.5 gap-y-0.5">
                           <span className="font-bold text-gray-200">{commentAuthorName}</span>
                           <span className="text-[10px] text-gray-500">@{commentAuthorUsername}</span>
                           <span className="text-[10px] text-gray-600">•</span>

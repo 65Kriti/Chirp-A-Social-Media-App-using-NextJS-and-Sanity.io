@@ -51,7 +51,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center bg-gray-950 overflow-y-auto px-4 py-12">
+    <div className="relative min-h-screen flex items-center justify-center bg-gray-950 overflow-x-hidden overflow-y-auto px-4 py-12">
       {/* Decorative gradient glowing spheres */}
       <div className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 w-80 h-80 rounded-full bg-blue-600/20 blur-[100px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2 w-96 h-96 rounded-full bg-purple-600/20 blur-[120px] pointer-events-none" />
